@@ -92,16 +92,6 @@ Falls du die Anwendung live hosten möchtest, kannst du Plattformen wie **Heroku
 
 ---
 
-## 🖼️ Beispielbilder
-
-### Text-to-Image:
-![Beispielbild Txt2Img](https://via.placeholder.com/400x300)
-
-### Image-to-Image:
-![Beispielbild Img2Img](https://via.placeholder.com/400x300)
-
----
-
 ## 📄 Lizenz
 
 Dieses Projekt steht unter der **MIT-Lizenz**. Weitere Details findest du in der Datei [LICENSE](LICENSE).
