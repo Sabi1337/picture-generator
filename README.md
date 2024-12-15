@@ -1,4 +1,4 @@
-Hier ist ein Beispiel für eine README-Datei in Deutsch für dein Projekt:
+Note: Um das ganze Benutzen zu können müssen sie stable diffusion automatic1111 installieren. Benutzen Sie am besten den Github Guide dazu.
 
 ---
 
