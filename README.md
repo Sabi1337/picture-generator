@@ -1,5 +1,4 @@
 Note: Um das ganze Benutzen zu können müssen sie stable diffusion automatic1111 installieren. Benutzen Sie am besten den Github Guide dazu.
-
 ---
 
 # 🖼️ Image Generator App
@@ -43,25 +42,47 @@ image-generator-app/
 
 ## 🛠️ Installation und Verwendung
 
-1. **Klone das Repository**:
+### 1. **Stable Diffusion WebUI vorbereiten**
+
+Um diese Anwendung nutzen zu können, muss die **Stable Diffusion WebUI** mit API-Unterstützung ausgeführt werden:
+
+1. Lade die Stable Diffusion WebUI (z. B. **AUTOMATIC1111 WebUI**) herunter und installiere sie gemäß der offiziellen Dokumentation.
+2. Stelle sicher, dass du die WebUI mit dem API-Modus startest. Dazu musst du die `webui-user.bat` anpassen:
+
    ```bash
-   git clone https://github.com/username/image-generator-app.git
-   cd image-generator-app
+   set COMMANDLINE_ARGS=--api
    ```
 
-2. **Installiere die Abhängigkeiten**:
-   Stelle sicher, dass Python 3 installiert ist. Installiere die benötigten Pakete mit:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Starte die WebUI und vergewissere dich, dass sie unter `http://127.0.0.1:7860` läuft.
 
-3. **Starte den Flask-Server**:
-   ```bash
-   python app.py
-   ```
+### 2. **Klone dieses Repository**
 
-4. **Öffne die Anwendung im Browser**:
-   - Navigiere zu `http://127.0.0.1:5000/` in deinem Browser.
+Klone dieses Repository auf deinen lokalen Rechner:
+
+```bash
+git clone https://github.com/username/image-generator-app.git
+cd image-generator-app
+```
+
+### 3. **Installiere die Abhängigkeiten**
+
+Stelle sicher, dass Python 3 installiert ist. Installiere die benötigten Pakete mit:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. **Starte den Flask-Server**
+
+Starte die Anwendung, indem du das Flask-Backend ausführst:
+
+```bash
+python app.py
+```
+
+### 5. **Öffne die Anwendung im Browser**
+
+Navigiere zu `http://127.0.0.1:5000/` in deinem Browser, um die Anwendung zu verwenden.
 
 ---
 
@@ -93,4 +114,4 @@ Beiträge sind willkommen! Wenn du Ideen hast oder einen Bug findest, öffne ein
 
 ---
 
-Falls du weitere Anpassungen benötigst, lass es mich wissen! 😊
+Falls du noch etwas hinzufügen möchtest, lass es mich wissen! 😊
